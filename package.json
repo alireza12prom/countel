@@ -1,6 +1,6 @@
 {
   "name": "@namatery/countel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Count lines of code in a direcotry or a file.",
   "author": "Namatery",
   "main": "dist/index.js",
