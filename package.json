@@ -19,5 +19,12 @@
   "dependencies": {
     "colors": "^1.4.0",
     "commander": "^10.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alireza12prom/countel.git"
+  },
+  "bin": {
+    "countel": "dist/index.js"
   }
 }
