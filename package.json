@@ -2,7 +2,7 @@
   "name": "countel",
   "version": "1.0.0",
   "description": "Count lines of code in a direcotry or a file.",
-  "author": "Alireza Rezapour",
+  "author": "Namatery",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "tsc"
