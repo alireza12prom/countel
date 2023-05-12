@@ -2,7 +2,7 @@
 
 STEP 1: Install `countel` globaly. 
  ```
- npm install countel -g
+ npm i @namatery/countel -g
  ```
  
  STEP 2: Count lines of code in a directory or a file.
