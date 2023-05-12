@@ -1,0 +1,23 @@
+{
+  "name": "countel",
+  "version": "1.0.0",
+  "description": "Count lines of code in a direcotry or a file.",
+  "author": "Alireza Rezapour",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "countel"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/commander": "^2.12.2",
+    "@types/node": "^20.1.2"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.1"
+  }
+}
