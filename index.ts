@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { search_files, count_lines, path_validator, logger } from './lib';
 import { program } from 'commander';
 
@@ -10,7 +12,7 @@ program
 main(program.args);
 
 function main(args: string[]) {
-  let path = args.at(0);
+  let path = args[0];
   if (!path) {
     logger.error('Error: please specify a path.');
     return;

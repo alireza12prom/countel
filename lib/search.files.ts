@@ -12,15 +12,13 @@ export function search_files(p:string) {
   else dir_content = fs.readdirSync(p);
 
   /* Scan files of the path directory */
-  let last_folder = p;
   for (let i = 0; i < dir_content.length; i++) {
-    let curr_root = path.join(last_folder, dir_content[i]);
+    let curr_root = path.join(p, dir_content[i]);
     if (excludeExt.test(curr_root)) continue; 
     else if (fs.statSync(curr_root).isFile()) {
       files.push(curr_root);
     } else {
-      last_folder = curr_root;
-      dir_content.push(...fs.readdirSync(curr_root));
+      files.push(...search_files(curr_root))
     };
   }
   return files;

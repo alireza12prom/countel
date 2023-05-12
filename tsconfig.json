@@ -2,13 +2,10 @@
   "compilerOptions": {
     "target": "ES2016",
     "module": "commonjs",
-    "rootDir": "./",                            
-    "moduleResolution": "node",
-    "declaration": true,
     "outDir": "./dist",
-    "removeComments": true,
+    // "removeComments": true,
     "esModuleInterop": true,
-
+    "declaration": true,
     /* Type Checking */
     "strict": true,
     "noUnusedLocals": true
